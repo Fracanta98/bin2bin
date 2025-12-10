@@ -6,7 +6,8 @@ import { IconTabBarComponent, TabConfig } from '@fundamental-ngx/platform/icon-t
 @Component({
     selector: 'home',
     templateUrl: './home.html',
-    imports: [IconTabBarComponent]
+    imports: [IconTabBarComponent],
+    styles: ""
 })
 export class Home implements OnInit {
     @Input()
