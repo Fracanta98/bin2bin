@@ -14,23 +14,23 @@ export class Home implements OnInit {
 
     items: TabConfig[] = [
       {
-        icon: 'accelerated',
-        label: 'Item 0',
-        counter: 55,
-        color: 'critical',
+        icon: 'journey-arrive',
+        label: 'Scan',
+        counter: null,
+        color: null,
         active: true
     },
     {
-        icon: 'action',
-        label: 'Item 1',
-        counter: 96,
+        icon: 'list',
+        label: 'List',
+        counter: null,
         color: null,
         badge: true
     },
     {
-        icon: 'account',
-        label: 'Item 2',
-        counter: 51,
+        icon: 'activities',
+        label: 'Log',
+        counter: null,
         color: null
     },
 
